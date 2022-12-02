@@ -1,0 +1,23 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header h1 {
+    font-size: 28px;
+}
+.inner {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#main_content {
+    text-align: center;
+}
+
+header, footer {
+    text-align: center;
+}
